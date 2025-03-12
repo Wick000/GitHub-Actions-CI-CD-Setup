@@ -12,4 +12,5 @@ export const getQuestions = async (): Promise<Question[]> => {
     console.error('Failed to fetch questions:', error);
     throw error;
   }
-}; 
+};         
+//putting change here
